@@ -1,0 +1,7 @@
+fname=str(input("enter your firstname:"))
+mname=str(input("enter your middlename:"))
+lname=str(input("enter your lastname:"))
+phno=str(input("enter your ph no:"))
+dob=str(input("enter your date of birth:"))
+add=str(input("enter your address:"))
+print("user id:", fname[-2:] + phno[0:2] + dob[-4::])
