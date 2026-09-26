@@ -1,0 +1,7 @@
+file = open("sample.txt", "r")
+print("Initial position:", file.tell())
+file.read(5)
+print("After reading:", file.tell())
+file.seek(0)
+print("After seek:", file.tell())
+file.close()

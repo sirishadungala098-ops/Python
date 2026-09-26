@@ -1,0 +1,5 @@
+s1=("Sirisha",17,"CCN",85)
+print(s1[0])
+print(s1[1])
+print(s1[2])
+print(s1[3])

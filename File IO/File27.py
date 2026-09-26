@@ -1,0 +1,5 @@
+file = open("sample.txt", "r")
+print("Position:", file.tell())
+file.read(5)
+print("Position:", file.tell())
+file.close()

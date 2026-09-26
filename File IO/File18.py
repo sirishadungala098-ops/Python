@@ -1,0 +1,5 @@
+file = open("students.txt", "a")
+file.write("Name: Sirisha, Age: 20, Course: Python\n")
+file.write("Name: Ravi, Age: 21, Course: Java\n")
+file.close()
+print("Student details added")

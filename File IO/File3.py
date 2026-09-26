@@ -1,0 +1,8 @@
+file = open("students.txt", "w")
+file.write("Raghu\n")
+file.write("Priya\n")
+file.write("Sirisha\n")
+file.write("Arun\n")
+file.write("Sita\n")
+file.close()
+print("Names written successfully")
